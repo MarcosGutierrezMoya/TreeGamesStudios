@@ -34,8 +34,7 @@ function AboutUs() {
             <NavBar />
             <Contacto />
             <section className="perfiles" style={{height:`${((db.length+1)*24)*0.9}rem`}}>
-                {db?.map((idioma,i)=>{
-                    const perfil = idioma[language.idioma]
+                {db?.map((perfil,i)=>{
                         if (i%2===0) {
                             return(
                                 <article key={i} className="perfil perfilIzq" style={{top:`${24*i}rem`}}>
@@ -43,9 +42,12 @@ function AboutUs() {
                                     <div style={{position:"relative",top:"0",left:"20%"}} >
                                         <h1 style={{color:"rgb(0,221,221)",fontSize:"3rem"}} >{perfil.nombre}</h1>
                                         <h3 style={{fontSize:"3rem"}} >{perfil.cargo}</h3>
-                                        {perfil.ocupaciones.map((ocupacion,i)=>{
+                                        {perfil[language.idioma].ocupaciones.map((ocupacion,i)=>{
                                             return(
-                                                <p key={`ocupacion${i}`} style={{fontSize:"1.5rem"}} >{i===perfil.ocupaciones.length-1?`y ${ocupacion}`: ocupacion}</p>
+                                                <p key={`ocupacion${i}`} style={{fontSize:"1.5rem"}} >{i===perfil[language.idioma].ocupaciones.length-1?
+                                                    `${language.idioma==="Español"?"y":"and"} ${ocupacion}`
+                                                    : ocupacion}
+                                                </p>
                                             )
                                         })}
                                     </div>
@@ -55,12 +57,15 @@ function AboutUs() {
                         else{
                             return(
                                 <article key={i} className="perfil perfilDrch" style={{top:`${24*i}rem`}}>
-                                    <div style={{position:"relative",top:"0",right:"20%"}} >
+                                    <div style={{position:"relative",top:"0",right:"20%",width:"fit-content"}} >
                                         <h1 style={{color:"rgb(0,221,221)",fontSize:"3rem"}} >{perfil.nombre}</h1>
                                         <h3 style={{fontSize:"3rem"}} >{perfil.cargo}</h3>
-                                        {perfil.ocupaciones.map((ocupacion,i)=>{
+                                        {perfil[language.idioma].ocupaciones.map((ocupacion,i)=>{
                                             return(
-                                                <p key={`ocupacion${i}`} style={{fontSize:"1.5rem"}} >{i===perfil.ocupaciones.length-1?`y ${ocupacion}`: ocupacion}</p>
+                                                <p key={`ocupacion${i}`} style={{fontSize:"1.5rem"}} >{i===perfil[language.idioma].ocupaciones.length-1?
+                                                    `${language.idioma==="Español"?"y":"and"} ${ocupacion}`
+                                                    : ocupacion}
+                                                </p>
                                                 )
                                             })}
                                     </div>

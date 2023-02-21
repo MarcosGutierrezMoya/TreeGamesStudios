@@ -1,10 +1,10 @@
 [
     {
+        "top":"0",
+        "img":"fotoRaul.png",
+        "nombre":"Raúl J.M.",
+        "cargo":"C.E.O",
         "Español":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
             "ocupaciones":[
                 "Dirección,",
                 "diseño,",
@@ -12,10 +12,6 @@
             ]
         },
         "Ingles":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
             "ocupaciones":[
                 "Direction,",
                 "design,",
@@ -24,170 +20,22 @@
         }
     },
     {
+        "top":"0",
+        "img":"fotoMarcos.png",
+        "nombre":"Marcos G.M.",
+        "cargo":"Project Manager",
         "Español":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
             "ocupaciones":[
-                "Dirección,",
-                "diseño,",
-                "producción"
+                "Programación,",
+                "desarrollo,",
+                "vfx"
             ]
         },
         "Ingles":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
             "ocupaciones":[
-                "Direction,",
-                "design,",
-                "production"
-            ]
-        }
-    },
-    {
-        "Español":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
-            "ocupaciones":[
-                "Dirección,",
-                "diseño,",
-                "producción"
-            ]
-        },
-        "Ingles":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
-            "ocupaciones":[
-                "Direction,",
-                "design,",
-                "production"
-            ]
-        }
-    },
-    {
-        "Español":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
-            "ocupaciones":[
-                "Dirección,",
-                "diseño,",
-                "producción"
-            ]
-        },
-        "Ingles":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
-            "ocupaciones":[
-                "Direction,",
-                "design,",
-                "production"
-            ]
-        }
-    },
-    {
-        "Español":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
-            "ocupaciones":[
-                "Dirección,",
-                "diseño,",
-                "producción"
-            ]
-        },
-        "Ingles":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
-            "ocupaciones":[
-                "Direction,",
-                "design,",
-                "production"
-            ]
-        }
-    },
-    {
-        "Español":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
-            "ocupaciones":[
-                "Dirección,",
-                "diseño,",
-                "producción"
-            ]
-        },
-        "Ingles":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
-            "ocupaciones":[
-                "Direction,",
-                "design,",
-                "production"
-            ]
-        }
-    },
-    {
-        "Español":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
-            "ocupaciones":[
-                "Dirección,",
-                "diseño,",
-                "producción"
-            ]
-        },
-        "Ingles":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
-            "ocupaciones":[
-                "Direction,",
-                "design,",
-                "production"
-            ]
-        }
-    },
-    {
-        "Español":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
-            "ocupaciones":[
-                "Dirección,",
-                "diseño,",
-                "producción"
-            ]
-        },
-        "Ingles":{
-            "top":"0",
-            "img":"fotoRaul.png",
-            "nombre":"Raúl J.M.",
-            "cargo":"C.E.O",
-            "ocupaciones":[
-                "Direction,",
-                "design,",
-                "production"
+                "Programming,",
+                "development,",
+                "vfx"
             ]
         }
     }
