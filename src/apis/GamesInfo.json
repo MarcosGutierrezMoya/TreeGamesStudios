@@ -1,0 +1,34 @@
+{
+    "CrazyRacy":{
+        "Español":{
+            "descripcion":"Descripción:",
+            "resumen":"Este es un juego competitivo offline en el que deberás esquivar obstaculos a la vez que la pones trampas a tu adversario o coges ayudas para ti mismo",
+            "trabajadores":{
+                
+            }
+        },
+        "Ingles":{
+            "descripcion":"Description:",
+            "resumen":"This is a competitive offline game in which you must avoid obstacles while setting traps for your adversary or getting help for yourself",
+            "trabajadores":{
+
+            }
+        }
+    },
+    "Project_R":{
+        "Español":{
+            "descripcion":"Descripción:",
+            "resumen":"",
+            "trabajadores":{
+                
+            }
+        },
+        "Ingles":{
+            "descripcion":"Description:",
+            "resumen":"",
+            "trabajadores":{
+
+            }
+        }
+    }
+}

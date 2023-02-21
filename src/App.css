@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0%;
+}
+.app{
+  position: relative;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0%;
+  padding: 0% 2%;
+  background-color: black;
+}
+.nav>div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navLink{
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+.navLinkButton{
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  background-color: rgb(0,221,221);
+  font-size: larger;
+  font-weight: bolder;
+  border-radius:15% ;
+}
+
+.homeLogo{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image:url("./media/fondoHome.png");
+  background-size: cover;
+  padding: 10% 0%;
+}
+.homeLogo>article{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50rem;
+}
+.homeLogo>article>h1{
+  font-size: 3rem;
+}
+.homeLogo>article>p{
+  font-size: 1.6rem;
+  color: white;
+}
+
+/* #region Juegos */
+.games{
+  background-image:url("./media/fondoHome.png");
+  background-size: cover;
+}
+.demos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1% 0 5% 0%;
+
+  font-size: larger;
+}
+.CrazyRacy{
+  background-color: rgba(128,128,128,0.8);
+}
+.Project_R{
+  /* background-color: greenyellow; */
+  background-color: rgba(0,221,221,0.6);
+}
+
+.panelImages{
+  display: flex;
+  justify-content: center;
+  /* background-image:url("./media/fondoHome.png"); */
+  background-size: cover;
+}
+.panel{
+  border-radius: 50px;
+  margin: 1rem;
+  height: 40vh;
+  width: 6vw;
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: width 1s ease-in-out;
+}
+
+.active{
+  transition: width 1s ease-in-out;
+  width:30vw;
+  cursor:auto;
+  background-size:cover;
+}
+
+/* #endregion */
+
+/* #region Contacto */
+.contacto{
+  background-color:rgb(10, 10, 10);
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.contacto>h1{
+  padding-left:20%;
+  font-size:6rem;
+  text-decoration: underline;
+}
+.cabeceraAzul{
+  color:rgb(0,221,221);
+}
+.offices{
+  padding-left: 60%;
+  font-size:2.5rem;
+  width: fit-content;
+  text-align: center;
+  color: white;
+}
+
+.mailContact{
+  padding-left: 30%;
+  font-size:2.5rem;
+  width: fit-content;
+  text-align: center;
+  color: white;
+}
+.separador{
+  height: 0.75rem;
+  width: 85%;
+  background-color: rgb(0,221,221);
+  margin-left: 5%;
+}
+
+
+/* ----------------- Perfiles ------------------ */
+
+.perfiles{
+  position: relative;
+  background-color: rgb(10,10,10);
+  color: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: -1;
+}
+.perfilIzq{
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start ;
+  position: absolute;
+  left: 0%;
+  transform: translateX(150rem);
+  transition: transform 1s ease-in-out;
+}
+.perfilDrch{
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  left: 60%;
+  transform: translateX(-150rem);
+  transition: transform 1s ease-in-out;
+}
+.perfilActivo{
+  transform: translateX(0rem);
+  transition: transform 1s ease-in-out;
+}
+.perfilTexto{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.foto{
+  height: 35rem;
+  width: 30rem;
+}
+
+/* #endregion */
