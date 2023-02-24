@@ -1,4 +1,4 @@
-import fondoProjectR  from "../media/fondoProjectR.png";
+import fondoProjectR  from "../media/fondoProjectR.jpg";
 import FondoCrazyRacy  from "../media/FondoCrazyRacy.jpg";
 
 function Panels({resize}) {
