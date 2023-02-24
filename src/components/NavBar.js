@@ -8,12 +8,12 @@ import banderaIng from "../media/banderaIng.png"
 
 import { useDispatch } from "react-redux"
 import { changeLanguage } from "../apis/languageSlice"
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 
 function NavBar() {
 
     const languageDispatch = useDispatch();
-    const language = useSelector(state => state.language);
+    // const language = useSelector(state => state.language);
 
 
     function cambiarIdioma(idioma) {
