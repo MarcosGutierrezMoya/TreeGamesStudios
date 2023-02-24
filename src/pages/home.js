@@ -5,7 +5,7 @@ import logoTreeGames from "../media/logoTreeGames.png"
 function Home() {
 
     const language = useSelector(state => state.language);
-
+    
     return(
         <>
             <NavBar />
