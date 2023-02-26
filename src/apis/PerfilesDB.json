@@ -1,7 +1,7 @@
 [
     {
         "top":"0",
-        "img":"fotoRaul.png",
+        "img":"https://i.pinimg.com/originals/94/b0/d1/94b0d178b703af36634838d55faa0e01.png",
         "nombre":"Raúl J.M.",
         "cargo":"C.E.O",
         "Español":{
@@ -21,7 +21,7 @@
     },
     {
         "top":"0",
-        "img":"fotoMarcos.png",
+        "img":"https://i.pinimg.com/originals/10/83/ad/1083add1229a908f19126fd563bd8412.png",
         "nombre":"Marcos G.M.",
         "cargo":"Project Manager",
         "Español":{

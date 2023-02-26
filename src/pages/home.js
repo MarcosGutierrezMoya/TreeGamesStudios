@@ -1,9 +1,9 @@
 import { useSelector } from "react-redux";
 import NavBar  from "../components/NavBar";
-import logoTreeGames from "../media/logoTreeGames.png"
 
 function Home() {
-
+    
+    const logoTreeGames = "https://i.pinimg.com/originals/09/df/6f/09df6f3909886cc6f0d523ba2750f46b.png";
     const language = useSelector(state => state.language);
     
     return(

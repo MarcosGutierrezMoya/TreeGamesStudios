@@ -1,3 +1,4 @@
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 // import logoTreeGames from "../media/logoTreeGamesNav.png"
 import logoFacebook from "../media/logoFacebook.png"
@@ -5,14 +6,15 @@ import logoInsta from "../media/logoInsta.png"
 import logoYoutube from "../media/logoYoutube.png"
 
 function Contacto() {
+    const language = useSelector(state => state.language);
     
     return(
         <section className="contacto">
-            <h1 className="cabeceraAzul">Contact</h1>
+            <h1 className="cabeceraAzul">{language.idioma==="Español"?"Contacto":"Contact"}</h1>
             <div className="offices">
-                <h2 className="cabeceraAzul">Our Offices</h2>
+                <h2 className="cabeceraAzul">{language.idioma==="Español"?"Nuestra oficina":"Our Offices"}</h2>
                 <p>Glorieta de Viriato nº7</p>
-                <p>{`C.P. 41089 Sevilla (Spain)`}</p>
+                <p>C.P. 41089 Sevilla (Spain)</p>
             </div>
             <div className="mailContact">
                 <h2 className="cabeceraAzul">Email</h2>

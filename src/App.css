@@ -6,6 +6,7 @@
   position: relative;
 }
 
+/* #region NavBar */
 .nav{
   display: flex;
   justify-content: space-between;
@@ -44,7 +45,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image:url("./media/fondoHome.png");
+  background-image:url("https://i.pinimg.com/originals/8d/67/53/8d6753923400b2ae7b09ffb5494fc7c0.png");
   background-size: cover;
   padding: 10% 0%;
 }
@@ -61,10 +62,11 @@
   font-size: 1.6rem;
   color: white;
 }
+/* #endregion */
 
 /* #region Juegos */
 .games{
-  background-image:url("./media/fondoHome.png");
+  background-image:url("https://i.pinimg.com/originals/8d/67/53/8d6753923400b2ae7b09ffb5494fc7c0.png");
   background-size: cover;
 }
 .demos{
@@ -81,19 +83,17 @@
   background-color: rgba(128,128,128,0.8);
 }
 .Project_R{
-  /* background-color: greenyellow; */
   background-color: rgba(0,221,221,0.6);
 }
 
 .panelImages{
   display: flex;
   justify-content: center;
-  /* background-image:url("./media/fondoHome.png"); */
   background-size: cover;
 }
 .panel{
   border-radius: 50px;
-  margin: 1rem;
+  margin: 0.5rem;
   height: 40vh;
   width: 6vw;
   background-position: center;
@@ -113,6 +113,7 @@
 /* #endregion */
 
 /* #region Contacto */
+
 .contacto{
   background-color:rgb(10, 10, 10);
   display: flex;
@@ -195,3 +196,9 @@
 }
 
 /* #endregion */
+
+.comment{
+  width: 55%;
+  text-align: start;
+  font-weight: bolder;
+}

@@ -1,6 +1,6 @@
 import NavBar  from "../components/NavBar";
 import perfiles from "../apis/PerfilesDB.json"
-import Contacto from "../components/Contacto";
+import Contacto from "../components/Contact";
 import { useState } from "react";
 import { useSelector } from "react-redux";
 
@@ -38,7 +38,7 @@ function AboutUs() {
                         if (i%2===0) {
                             return(
                                 <article key={i} className="perfil perfilIzq" style={{top:`${24*i}rem`}}>
-                                    <img src={require(`../media/${perfil.img}`)} style={{position:"relative",top:"0",left:"20%"}} className="foto" alt="Raul foto" />
+                                    <img src={`${perfil.img}`} style={{position:"relative",top:"0",left:"20%"}} className="foto" alt="Raul foto" />
                                     <div style={{position:"relative",top:"0",left:"20%"}} >
                                         <h1 style={{color:"rgb(0,221,221)",fontSize:"3rem"}} >{perfil.nombre}</h1>
                                         <h3 style={{fontSize:"3rem"}} >{perfil.cargo}</h3>
@@ -69,7 +69,7 @@ function AboutUs() {
                                                 )
                                             })}
                                     </div>
-                                    <img src={require(`../media/${perfil.img}`)} style={{position:"relative",top:"0",right:"20%",rotate:"20deg"}} className="foto" alt="Raul foto" />
+                                    <img src={`${perfil.img}`} style={{position:"relative",top:"0",right:"20%",rotate:"20deg"}} className="foto" alt="Raul foto" />
                                 </article>
                             )                      
                         }
